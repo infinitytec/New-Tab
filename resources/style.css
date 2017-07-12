@@ -1,0 +1,52 @@
+body {
+  text-align: center;
+  padding: 5%;
+  margin: auto;
+}
+
+.searchbox input[type=text] {
+  background-color: #e0e0e0;
+  padding: 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+  width: 45%;
+  border-color: #333333;
+}
+
+.searchbox input[type=submit] {
+  background-color: #e0e0e0;
+  padding: 12px;
+  border-radius: 5px;
+  border: none;
+}
+
+.searchbox input[type=text]:hover {
+  transition: background-color 0.5s ease-out;
+  background-color: #ADADAD;
+}
+
+.searchbox input[type=submit]:hover {
+  transition: background-color 0.5s ease-out;
+  background-color: #2196f3;
+}
+
+.shortcut a {
+  padding: 50px;
+  margin-right: 1%;
+  margin-bottom: 1%;
+  float: left;
+  text-decoration: none;
+  background-color: blue;
+  color: transparent;
+}
+
+.shortcut a:hover {
+  transition: color 0.5s ease-out;
+  color: black;
+}
+
+.shortcut a:hover background {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
