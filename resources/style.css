@@ -1,3 +1,7 @@
+@font-face {
+  <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet"> 
+}
+@media screen {
 body {
   text-align: center;
   padding: 5%;
@@ -49,4 +53,5 @@ body {
 .shortcut a:hover background {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
+}
 }
