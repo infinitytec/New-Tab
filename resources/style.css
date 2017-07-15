@@ -1,69 +1,126 @@
-@font-face {
-  <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet"> 
-}
-@media screen {
-  h1 {
-    font-family: 'Muli', sans-serif;
-  }
-  p {
-       font-family: 'Muli', sans-serif;
-  }
-  a {
-        font-family: 'Muli', sans-serif;
-  }
-  .searchbox {
-        font-family: 'Muli', sans-serif;
-  }
-body {
-  text-align: center;
-  padding: 5%;
-  margin: auto;
-}
-
-.searchbox input[type=text] {
-  background-color: #e0e0e0;
-  padding: 10px;
-  border-style: solid;
-  border-width: 2px;
-  border-radius: 5px;
-  width: 45%;
-  border-color: #333333;
-}
-
-.searchbox input[type=submit] {
-  background-color: #e0e0e0;
-  padding: 12px;
-  border-radius: 5px;
-  border: none;
-}
-
-.searchbox input[type=text]:hover {
-  transition: background-color 0.5s ease-out;
-  background-color: #ADADAD;
-}
-
-.searchbox input[type=submit]:hover {
-  transition: background-color 0.5s ease-out;
-  background-color: #2196f3;
-}
-
-.shortcut a {
-  padding: 50px;
-  margin-right: 1%;
-  margin-bottom: 1%;
-  float: left;
-  text-decoration: none;
-  background-color: blue;
-  color: transparent;
-}
-
-.shortcut a:hover {
-  transition: color 0.5s ease-out;
-  color: black;
-}
-
-.shortcut a:hover background {
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
-}
-}
+    h1 {
+        font-family: 'Arial', sans-serif;
+    }
+    
+    p {
+        font-family: 'Arial', sans-serif;
+    }
+    
+    a {
+        font-family: 'Arial', sans-serif;
+    }
+    
+    .searchbox {
+        font-family: 'Arial', sans-serif;
+    }
+    
+    html {
+        padding-left: 5%;
+        padding-top: 20px;
+        padding-right: 5%;
+    }
+    
+    body {
+        text-align: center;
+        margin: auto;
+        background-image: url(background.jpg);
+        background-position: left top;
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        overflow: visible;
+    }
+    
+    .searchbox input[type=text] {
+        background-color: #e0e0e0;
+        padding: 10px;
+        border-style: solid;
+        border-width: 2px;
+        border-radius: 5px;
+        width: 45%;
+        border-color: #333333;
+    }
+    
+    .searchbox input[type=submit] {
+        background-color: #e0e0e0;
+        padding: 12px;
+        border-radius: 5px;
+        border: none;
+    }
+    
+    .searchbox input[type=text]:hover {
+        transition: background-color 0.5s ease-out;
+        background-color: #ADADAD;
+    }
+    
+    .searchbox input[type=submit]:hover {
+        transition: background-color 0.5s ease-out;
+        background-color: white;
+    }
+    
+    .shortcut {
+        margin-bottom: 50px;
+    }
+    
+    .shortcut a {
+        height: 125px;
+        width: 125px;
+        border-radius: 5px;
+        margin-right: 1%;
+        margin-bottom: 2em;
+        display: inline-block;
+        text-decoration: none;
+        background-color: white;
+        color: transparent;
+    }
+    
+    .shortcut a:hover {
+        transition: color 0.5s ease-out;
+        color: black;
+    }
+    
+    a img {
+        border-radius: 5px;
+        overflow: hidden;
+        filter: brightness(90%) grayscale(10%) blur(.5px);
+    }
+    
+    a:hover img {
+        filter: blur(0px);
+    }
+    
+    footer {
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+        display: inline;
+        background-color: #e0e0e0;
+        width: 100%;
+        filter: opacity(75%);
+    }
+    
+    footer p {
+        filter: opacity(100%);
+    }
+    
+    footer a {
+        text-decoration: none;
+        padding: 5px;
+        background-color: #ADADAD;
+        border-radius: 5px;
+        color: black;
+        filter: opacity(100%);
+    }
+    
+    footer a img {
+        margin: 0px;
+        padding: 0px;
+        border-radius: 5px;
+        position: absolute;
+        top: 2px;
+    }
+    
+    footer a:hover {
+        transition: background-color 0.5s ease-out;
+        background-color: white;
+    }
