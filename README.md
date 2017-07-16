@@ -32,3 +32,7 @@ That's it! You have a brand-new new tab page!
 For Chrome:
 
 Chrome is not yet supported by this New Tab project. Support will come soon.
+
+# License
+Just give credit.
+That's all.
