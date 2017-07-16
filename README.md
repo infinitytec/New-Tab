@@ -2,6 +2,9 @@
 A modern, functional, customizable New Tab page.
 # Goals
 The purpose in creating this porject was to make a new tab page that offers the links I most want with a modern UI.
+# What this features
+The project offers easy-to-access links as well as a DuckDuckGo search box to easily search the web.
+Included are a few example links.
 # General Configuration
 Download the code to your computer. This is so the site is locally hosted and loads faster.
 
