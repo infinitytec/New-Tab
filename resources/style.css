@@ -118,7 +118,7 @@
         padding: 0px;
         border-radius: 5px;
         position: absolute;
-        bottom: 2px;
+        bottom: 0px;
     }
     
     footer a:hover {
