@@ -107,6 +107,7 @@
     footer a {
         text-decoration: none;
         padding: 5px;
+        max-width: 84.5px;
         background-color: #ADADAD;
         border-radius: 5px;
         color: black;
