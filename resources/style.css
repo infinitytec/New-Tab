@@ -1,3 +1,4 @@
+@media screen{
     h1 {
         font-family: 'Arial', sans-serif;
     }
@@ -117,10 +118,20 @@
         padding: 0px;
         border-radius: 5px;
         position: absolute;
-        top: 2px;
+        bottom: 2px;
     }
     
     footer a:hover {
         transition: background-color 0.5s ease-out;
         background-color: white;
     }
+}
+@-moz-document url-prefix() { 
+  footer a img {
+        margin: 0px;
+        padding: 0px;
+        border-radius: 5px;
+        position: absolute;
+        top: 2px;
+    }
+}
